@@ -1,0 +1,22 @@
+p{
+    color: red
+}
+div{
+    font-size: 30px;
+}
+#firstDiv{
+    color: green;
+}
+#secondDiv{
+    color: green;
+}
+div.div-type-1{
+    margin: 40px;
+}
+div span{
+    text-decoration: underline;
+    color: gray;
+}
+span{
+    color: blue!important;
+}
