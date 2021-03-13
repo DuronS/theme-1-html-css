@@ -2,23 +2,43 @@
 <html>
     <head>
         <title>theme 1 html css</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <p>Текст
-            <br>
-            текст вторая строка
-        </p>
-        
-        <div id="firstDiv" class="div-type-1 div-type-2">
-            <span><b>1</b></span>
-            <span>2</span>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <form id="myForm" action="file:///D:/study-2021-1/project/theme-1-html-css/index.html?test=1" method="post">
+                        <input type="hidden" value="214256">
+                        <input value="текст">
+                        <select name="mySelect">
+                            <option value="val1">1</option>
+                            <option value="val2">2</option>
+                        </select>>
+                        <input name="mySubmit" type="submit" value="кнопка input">
+                        <button>Отправить</button>
+                    </form>
+                    <textarea form="myForm" name="myTextarea">Текс текст текст</textarea>
+                </div>
+            </div>
+            <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Password</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3 form-check">
+                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
         </div>
-        <div id="secondDiv">
-            <span>3</span>
-            <span>4</span>
-        </div>
-        <span>5</span>
-        <img src="https://new.mospolytech.ru/upload/resize_cache/iblock/84d/825_495_0/EMP Moscow-min.jpg">
+       
     </body>
 </html>
